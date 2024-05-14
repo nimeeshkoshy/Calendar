@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="highlight_color">#FF5722</color>
+    <color name="light_color">#F5F5F5</color>
+    <color name="selected_date_color">#FF4081</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="red">#C20000</color>
+
+    <color name="green">#0AD1BF</color>
+    <color name="green_light">#45D6C9</color>
+    <color name="colorPrimary">#ffff</color>
+    <color name="colorPrimaryWhiteText">#ffff</color>
+    <color name="colorButton">#303F9F</color>
+    <color name="LightDark">#BA515050</color>
+    <color name="violet">#694AA1</color>
+    <color name="darkWhite">#DFDFDF</color>
+    <color name="lightWhite">#D7E7E9</color>
+    <color name="darkGreen">#45D6C9</color>
+    <color name="passwordBackground">#BCD5D0D0</color>
+    <color name="appBackground">#EFF7F9</color>
+    <color name="pink">#EA5386</color>
+    <color name="blue">#347297</color>
+    <color name="SkyBlue">#02B0FF</color>
+    <color name="navIconTint">#CBCBCB</color>
+    <color name="line_color">#60887c</color>
+</resources>

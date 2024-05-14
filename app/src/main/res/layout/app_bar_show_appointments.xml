@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+        android:id="@+id/showAppointmentMenuBar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/white"
+        android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/drawerButtonShowAppointment"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/menubuttonimg"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/appbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Calender"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <ImageView
+            android:id="@+id/searchButtonShowAppointment"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/search_img"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"/>
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarShoAppointment"
+        android:layout_width = "match_parent"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/Theme.Loginscreen.PopupOverlay"
+        android:layout_height = "?attr/actionBarSize" />
+
+
+
+</RelativeLayout>
